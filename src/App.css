@@ -1,0 +1,17 @@
+@import '/src/styles/Login.css';
+
+@font-face {
+  font-family: 'FiraCode Nerd Font';
+  src: url( '../src/fonts/FiraCodeNerdFont-Regular.ttf' ) format( 'truetype' );
+}
+*{
+  font-family: 'FiraCode Nerd Font';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Establecemos la altura del cuerpo al 100% del viewport */
+  background: linear-gradient(to bottom, #007bff, #cfd8dc); /* Gradiente lineal de azul a grisáceo */
+}
+
