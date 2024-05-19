@@ -16,7 +16,10 @@ const NavBar = () => {
           <Link to="personas">Personas</Link>
         </li>
         <li>
-        <button onClick={()=> auth.logoutAction()}>Cerrar seccion</button>
+          <Link to="perfil">Perfil</Link>
+        </li>
+        <li>
+        <button className="btn-cerrar" onClick={()=> auth.logoutAction()}>Cerrar sewion</button>
         </li>
       </ul>
     </nav>

@@ -6,6 +6,7 @@ import {Routes,Route} from 'react-router-dom'
 import Login from './pages/Login'
 import Lugares from './pages/Lugares'
 import Personas from './pages/Personas'
+import Perfil from './pages/Perfil'
 
 import './App.css'
 
@@ -22,6 +23,7 @@ function App() {
               <Route index element={ <Inicio/> }/>
               <Route path='lugares' element={ <Lugares/> }/>
               <Route path='personas' element={<Personas/>}/>
+              <Route path='perfil' element={<Perfil/>}/>
             </Route>
           </Route>
         </Routes>
