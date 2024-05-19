@@ -5,6 +5,7 @@ import PrivateRoute from './components/PrivateRoute'
 import {Routes,Route} from 'react-router-dom'
 import Login from './pages/Login'
 import Lugares from './pages/Lugares'
+import Personas from './pages/Personas'
 
 import './App.css'
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/dashboard' element={ <Dashboard/> }>
               <Route index element={ <Inicio/> }/>
               <Route path='lugares' element={ <Lugares/> }/>
+              <Route path='personas' element={<Personas/>}/>
             </Route>
           </Route>
         </Routes>

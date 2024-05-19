@@ -7,10 +7,13 @@ const NavBar = () => {
     <nav>
       <ul>
         <li>
-          <Link index >Inicio</Link>
+          <Link to="" >Inicio</Link>
         </li>
         <li>
           <Link to="lugares">Lugares</Link>
+        </li>
+        <li>
+          <Link to="personas">Personas</Link>
         </li>
         <li>
         <button onClick={()=> auth.logoutAction()}>Cerrar seccion</button>
